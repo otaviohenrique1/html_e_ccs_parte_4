@@ -17,6 +17,12 @@
   --fonte-secundaria: 'Montserrat', sans-serif; */
 }
 
+/*
+  rem => px/16
+  16px = 1rem
+  Relativo ao font-size do elemento raiz
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +30,7 @@
 
 body {
   /* height: 100vh; */
-  /* Pega 100% do tamano da tela da tela */
+  /* vh => Pega 100% do tamano da tela da tela */
   box-sizing: border-box;
   background-color: var(--cor-primaria);
   color: var(--cor-secundaria);
